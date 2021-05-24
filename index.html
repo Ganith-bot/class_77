@@ -1,32 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Class 77 project</title>
+        <title>Student Website</title>
+        <script src="main.js"></script>
     </head>
     <body>
         <center>
-        <h1>Project on console</h1>
-        <p>Write about visual studio and how to set it up</p>
-        <p>Console screen prints the values in variables, etc.We can print the values using console.log and combine the values using concat</p>
+            <div >
+        <h1>List of the students in my class</h1>
+        <div>
+            <span>
+                1
+                <input type="text" placeholder="Name of Student" id="nos1">
+            </span>
+            <br>
+            <br>
+            <br>
+            <span>
+            2               
+            <input type="text" placeholder="Name of Student" id="nos2">
+            </span>
+            <br>
+            <br>
+            <br>
+            <span>
+               3
+                <input type="text" placeholder="Name of Student" id="nos3">
+            </span>
+            <br>
+            <br>
+            <br>
+            <span>
+               4
+                <input type="text" placeholder="Name of Student" id="nos4">
+            </span>
+        </div><br>
+        <br>
+        <br>
+        <button id="btn1" onclick="submit1()">Submit</button>
+        <br>
+        <br>
+        <div id="names" style="background-color:green; padding:10px ; width: 65%;">
+        </div>
+        <br>
+        <div id="names_sort" style="background-color: red; padding: 10px; width: 65%;" ></div>
+        <br>
+        <div id="names_sort1" style="background-color: red; padding: 10px; width: 65%;" ></div>
+        <br>
+        <button id="btn2" onclick="sort1()" style="display: none;">Sort</button>
+        <br>
+        <button id="btn3" onclick="hs1()" style="display: inline-block;">Change display</button>
+    </div>
     </center>
-        <script>
-            var first="My first console project";
-            console.log(first);
-             var fname="Ranbir";
-             var lname="Kapoor";
-             console.log(fname);
-             console.log(lname);
-             console.log(fname.concat(lname));
-             var a=10;
-             var b=5;
-             var add= a + b;
-             console.log(a)
-             console.log(b)
-             console.log(add)
-             console.log(Math.sqrt(187));
-             console.log(Math.max(17,6));
-             console.log(Math.min(17,6));
-             console.log(Math.pow(4,9));
-        </script>
     </body>
 </html>
